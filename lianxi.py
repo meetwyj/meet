@@ -19,3 +19,4 @@ print(a-b) # 654
 print('yxy04')
 print(005)
 # wwwwwwwwwwwwwwhhhhhhhhhhhhhhhhlllllllllllllll
+print(text)
