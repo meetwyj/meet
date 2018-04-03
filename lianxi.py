@@ -5,11 +5,9 @@ class Foo(object):
         return 123
     def __sub__(self, other):
         return 654
-
-
-
 a = Foo()
 b = Foo()
 print(a*b)
 print(a+b)
 print(a-b)
+print('Hello World')
