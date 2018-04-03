@@ -32,22 +32,3 @@ class LoginForm(Form):
         widget=widgets.TextInput(),
         render_kw={'class': 'form-control','placeholder':'密码'}
     )
-
-
-
-# @app.route('/login', methods=['GET', 'POST'])
-# def login():
-#     if request.method == 'GET':
-#         form = LoginForm()
-#         return render_template('login.html', form=form)
-#     else:
-#         form = LoginForm(formdata=request.form)
-#         if form.validate():
-#             print('用户提交数据通过格式验证，提交的值为：', form.data)
-#         else:
-#             print(form.errors)
-#         return render_template('login.html', form=form)
-
-# if __name__ == '__main__':
-    # l = LoginForm()
-    # app.run()
