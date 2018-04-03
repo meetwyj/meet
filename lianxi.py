@@ -7,6 +7,7 @@ class Foo(object):
         return 654
 
 
+# 加一段
 a = Foo()
 b = Foo()
 print(a*b) # 123
