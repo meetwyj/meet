@@ -17,3 +17,4 @@ print(a*b) # 123
 print(a+b) # 987
 print(a-b) # 654
 print('yxy04')
+print(005)
