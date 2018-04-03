@@ -1,4 +1,6 @@
 class Foo(object):
+
+
     def __add__(self, other):
         return 987
     def __mul__(self, other):
@@ -10,6 +12,6 @@ class Foo(object):
 
 a = Foo()
 b = Foo()
-print(a*b)
-print(a+b)
-print(a-b)
+print(a*b) # 123
+print(a+b) # 987
+print(a-b) # 654
